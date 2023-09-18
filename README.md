@@ -1,18 +1,22 @@
 # StaticWebHosting-S3-CloudFormation
 
-
+- [Overview](#overview)
+- [Prerequisites](#prerequisites)
+- [Deployment](#deployment)
+- [License](#license)
+- [Contribution](#contribution)
 
 ## Overview
 
-Make static website hosting easy using the power of AWS Services. Using an AWS Cloudformation stack, this solution generates an AWS S3 Bucket with web hosting and public access enabled (through a bucket policy) and syncs a local folder that contains your files to the newly created bucket. 
+Make static website hosting easy using the power of AWS Services. Using an AWS Cloudformation stack, this solution generates an AWS S3 Bucket with web hosting and public access enabled (through a bucket policy) and syncs the local folder that contains your files to the newly created bucket. Then it provides you with the AWS Region-specific website endpoint of the bucket in order to see your website.
 
 ## Prerequisites
 
-* AWS Account and configured ([AWS-CLI`](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)).
+* AWS Account and configured ([`AWS-CLI`](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)).
 
 ## Deployment
 
-
+*Inside your local folder that contains the various website files, make sure that there 
 
 
 ## License
