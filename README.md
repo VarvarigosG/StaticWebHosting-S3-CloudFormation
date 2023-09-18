@@ -23,7 +23,8 @@ Make static website hosting easy using the power of AWS Services. Using an AWS C
 Parameter Explanation:
 | Parameter                                 | Description                                                  | Example                                                      |
 | ------------------------------------------| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| AWS CloudFormation Stack Name             | An identifier that helps you find a particular stack from a list of stacks| ExampleCloudFormationStack                      |
+| AWS CloudFormation Stack Name             | An identifier that helps you find a particular stack from a list of stacks. A stack name can contain only alphanumeric characters (case-sensitive) and hyphens. It must start with an alphabetic character and can't be longer than 128 characters.| ExampleCloudFormationStack                  |
+| AWS CloudFormation Stack Region           | The ([AWS Region](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/)) that the stack will be deployed.     | eu-west-1 |
 
 
 ## License
