@@ -8,7 +8,7 @@
 
 ## Overview
 
-Make static website hosting easy using the power of AWS Services. Using an AWS Cloudformation stack, this solution generates an AWS S3 Bucket with web hosting and public access enabled (through a bucket policy) and syncs the local folder that contains your files to the newly created bucket. Then it provides you with the AWS Region-specific website endpoint of the bucket in order to see your website.
+Make static website hosting easy using the power of AWS Services. Using an AWS Cloudformation stack, this solution generates an AWS S3 Bucket with web hosting and public access enabled (through a bucket policy) and syncs the local folder that contains your files to the newly created bucket. Then it provides you with the AWS Region-specific website endpoint of the bucket in order to access your website.
 
 ## Prerequisites
 
@@ -16,7 +16,14 @@ Make static website hosting easy using the power of AWS Services. Using an AWS C
 
 ## Deployment
 
-*Inside your local folder that contains the various website files, make sure that there 
+* Make sure that `run.sh` and `AwsS3BucketPlusPolicy.yaml` files are within the the local folder that will by synced to the S3 Bucket.
+
+1. Run `run.sh` and fill out the required parameters.
+
+Parameter Explanation:
+| Parameter                                 | Description                                                  | Example                                                      |
+| ------------------------------------------| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| AWS CloudFormation Stack Name             | An identifier that helps you find a particular stack from a list of stacks| ExampleCloudFormationStack                      |
 
 
 ## License
