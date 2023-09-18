@@ -25,7 +25,7 @@ Parameter Explanation:
 | ----------------------------------------------| ------------------------------------------------------------ | --------|
 | AWS CloudFormation Stack Name                 | An identifier that helps you find a particular stack from a list of stacks. A stack name can contain only alphanumeric characters (case-sensitive) and hyphens. It must start with an alphabetic character and can't be longer than 128 characters.| ExampleCloudFormationStack |
 | AWS CloudFormation Stack Region           | The ([`AWS Region`](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/)) that the stack will be deployed.            | eu-west-1 |
-|Local Directory that containts the yaml file      | The directory of the local file that contains the `AwsS3BucketPlusPolicy.yaml` file | file://example.yaml                         |
+|Local Directory that containts the yaml file      | The local directory that contains the `AwsS3BucketPlusPolicy.yaml` file | file://example.yaml                         |
 | AWS S3 BucketName | Globally unique name that will be given to the S3 Bucket ([Bucket Naming Rules](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html)) | uniques3bucket |
 |AWS S3 Index Document | The home or default page of the website. | index.html |
 |AWS S3 Error Document | This is returned when an error occurs. | error.html |
