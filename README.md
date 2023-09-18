@@ -35,6 +35,7 @@ Parameter Explanation:
 *  js
 *  dist
 *  fonts
+  <!-- -->
 as well as any files with the following extensions:
 * .yaml
 * .sh
