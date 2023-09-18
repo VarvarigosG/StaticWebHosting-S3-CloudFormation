@@ -1,12 +1,14 @@
 # StaticWebHosting-S3-CloudFormation
 
+
+
 ## Overview
 
 Make static website hosting easy using the power of AWS Services. Using an AWS Cloudformation stack, this solution generates an AWS S3 Bucket with web hosting and public access enabled (through a bucket policy) and syncs a local folder that contains your files to the newly created bucket. 
 
 ## Prerequisites
 
-* AWS Account and configured `AWS-CLI`.
+* AWS Account and configured (`AWS-CLI`(https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)).
 
 ## Deployment
 
