@@ -8,7 +8,7 @@ Make static website hosting easy using the power of AWS Services. Using an AWS C
 
 ## Prerequisites
 
-* AWS Account and configured (`AWS-CLI`(https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)).
+* AWS Account and configured ([AWS-CLI`](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)).
 
 ## Deployment
 
