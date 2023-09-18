@@ -30,8 +30,16 @@ Parameter Explanation:
 |AWS S3 Index Document | The home or default page of the website. | index.html |
 |AWS S3 Error Document | This is returned when an error occurs. | error.html |
 
+! The Syncing operation of the local directory to the s3 bucket **excludes** any folders with the following names
+* .git
+*  js
+*  dist
+*  fonts
+as well as any files with the following extensions:
+* .yaml
+* .sh
 
-2. Copy paste the provided URL into any broswer.
+2. Paste the provided URL into any broswer.
 
 
 ## License
